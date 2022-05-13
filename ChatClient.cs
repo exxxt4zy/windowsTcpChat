@@ -48,9 +48,9 @@ namespace ChatClient
         }
         static void ConsoleT(string title)
         {
-            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.Title = title;
         }
         static void SendMessage()
